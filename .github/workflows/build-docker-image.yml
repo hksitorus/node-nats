@@ -16,6 +16,6 @@ jobs:
     - name: Build and Publish Docker image
       uses: Kolkies/githubpackages-docker@v1.0.4
       with:
-        repo-token: ${{ secrets.TOKEN_GH }}
+        repo-token: ${{ secrets.GH_TOKEN }}
         image-name: node-nats
 
